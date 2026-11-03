@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookingSystemMoUS.Application\BookingSystemMoUS.Application.csproj" />
+    <ProjectReference Include="..\BookingSystemMoUS.Domain\BookingSystemMoUS.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
